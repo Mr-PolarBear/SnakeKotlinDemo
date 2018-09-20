@@ -3,4 +3,4 @@
 简书地址:
 https://www.jianshu.com/p/dbf5512dd237
 
- ![image](https://github.com/Mr-PolarBear/SnakeKotlinDemo/GIF.)
+ ![image](https://github.com/Mr-PolarBear/SnakeKotlinDemo/GIF.gif)
