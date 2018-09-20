@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game_snake.SnakeActivity">
+
+
+    <com.jack.mysnake_demo.game_snake.snake_weidgt.SnakeBgView
+        android:id="@+id/sbv_snake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.jack.mysnake_demo.game_snake.snake_weidgt.SnakeGameView
+        android:id="@+id/sgv_snake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:background="@color/btn3"
+            android:id="@+id/tv_snake_start"
+            android:layout_width="80dp"
+            android:textColor="@android:color/white"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="开始"
+            android:textSize="17sp"/>
+
+        <Button
+            android:id="@+id/bt_snake_left"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/selector_btn_submit"
+            android:text="左"
+            android:textColor="@android:color/white"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_snake_top"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:background="@drawable/selector_btn_submit"
+                android:text="上"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/bt_snake_down"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_btn_submit"
+
+                android:text="下"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_snake_righrt"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/selector_btn_submit"
+
+            android:text="右"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

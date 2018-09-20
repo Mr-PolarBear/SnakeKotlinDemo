@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="input_message_View">
+        <!-- 密码的个数 -->
+        <attr name="itemNumber" format="integer"/>
+        <!-- 是否是密码模式 -->
+        <attr name="isPassword" format="boolean"/>
+        <!-- 未选中的边框颜色-->
+        <attr name="unSelectStrokeColor" format="color"/>
+        <!-- 选中的边框颜色-->
+        <attr name="selectStrokeColor" format="color"/>
+        <!-- 文字的颜色-->
+        <attr name="text_Color" format="color"/>
+        <!--item的背景色-->
+        <attr name="itemBgColor" format="color"/>
+        <!--是否显示圆点-->
+        <attr name="isOval" format="boolean"/>
+
+    </declare-styleable>
+
+
+</resources>

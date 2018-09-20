@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 这个是按下时的效果 -->
+    <item android:drawable="@drawable/shape_btn_normal_dark" android:state_pressed="true"/>
+    <!-- 这个是有焦点时的效果 -->
+    <item android:drawable="@drawable/shape_btn_normal_dark" android:state_focused="true"/>
+    <!-- 这个是选中时的效果 -->
+    <item android:drawable="@drawable/shape_btn_normal_dark" android:state_selected="true"/>
+    <!-- 以下为正常状态的效果 -->
+    <item android:drawable="@drawable/shape_btn_normal"/>
+
+</selector>
